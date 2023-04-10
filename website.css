@@ -2,10 +2,13 @@
 
 
 *{
+    font-family: 'Poppins', sans-serif;   
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 
 body{
     font-family: 'poppins', sans-serif;
@@ -87,3 +90,62 @@ nav .button{
     background-position: center;
     background-attachment: fixed;
 }
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image1{
+    margin-top: 200px;
+    margin-left: 100px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.image2{
+    margin-block-end: 100px;
+    margin-left: 100px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.image3{
+    margin-block-end: 100px;
+    margin-left: 100px;
+    background-color: #fff;
+    border: 5px solid #fff;
+    min-height: 14em;
+    width: 15em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+
+.More-details{
+    text-decoration: none;
+    color:#3a6cf4;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.More-details:hover{
+    color:#601cfc;
+}
+
